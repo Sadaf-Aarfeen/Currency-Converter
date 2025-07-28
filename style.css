@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: bisque;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    padding: 2rem;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+}
+h2 {
+    font-size: 45px;
+    margin: 25px;
+}
+.inp {
+    display: flex;
+    gap: 29px;
+    font-size: 22px;
+    margin-bottom: 2rem;
+}
+.inp input{
+    text-align: center;
+    width: 60%;
+    border: solid rgb(138, 138, 138) 0.5px;
+    border-radius: 4px;
+}
+.from-to {
+    display: flex;
+    justify-content: space-between;
+}
+#icn {
+    align-self: center;
+}
+select {
+    min-width: 4rem;
+    min-height: 1.5rem;
+    font-size: 12px;
+    border: 0.5px solid rgb(138, 138, 138) ;
+    border-radius: 2px;
+}
+.mess {
+    margin-top: 1rem;
+    font-weight: 800;
+}
+.btn {
+    width: 70%;
+    align-self: center;
+    border-radius: 14px;
+    color: white;
+    font-size: 18px;
+    border: none;
+    background-color: rgb(207, 103, 134);
+    margin-top: 1rem;
+    min-height: 3rem;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
